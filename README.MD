@@ -4,7 +4,7 @@ Test
 
 ## env setting
 1. yarn global add parcel
-2. git remote add origin ${github url}
+2. git init && git remote add origin ${github url} && git pull origin master
 3. yarn init -y
 4. yarn add react react-dom
 5. yarn add babel-preset-env babel-preset-react --dev
